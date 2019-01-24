@@ -104,7 +104,7 @@ $(".nubes1").css("transform", "translate("+e.pageX * 0.01 +"px, "+e.pageX * 0.02
 					    });
 
 					    $(window).scroll(function(){
-					        if( $(this).scrollTop() > 4800 ){
+					        if( $(this).scrollTop() > 5100 ){
 					            $('.ir-arriba').slideDown(600);
 					        } else {
 					            $('.ir-arriba').slideUp(600);

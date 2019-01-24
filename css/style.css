@@ -906,7 +906,8 @@ margin-top: 7vh;
 
 @media all and (max-width: 768px) {
 .ir-arriba{
-margin:5px;
+padding:0px;
+margin:2px;
 right:0px;
 }
 }
