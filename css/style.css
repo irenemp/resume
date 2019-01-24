@@ -901,12 +901,12 @@ margin-top: 7vh;
 			position: fixed;
 			bottom:20px;
 			right:20px;
-			z-index: 2;
+			z-index: 650;
 	}
 
 @media all and (max-width: 768px) {
 .ir-arriba{
-padding:5px;
+margin:5px;
 right:0px;
 }
 }
