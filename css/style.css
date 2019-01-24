@@ -902,6 +902,7 @@ margin-top: 7vh;
 			bottom:20px;
 			right:20px;
 			z-index: 650;
+	overflow-x: hidden;
 	}
 
 @media all and (max-width: 768px) {
