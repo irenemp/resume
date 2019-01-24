@@ -76,6 +76,13 @@ display: none;
 }
 }
 
+body {
+  padding: 0px;
+  margin: 0px;
+	overflow-x: hidden;
+}
+
+
 @media all and (max-width: 1200px) {
 
 	.titulo {
@@ -84,12 +91,20 @@ display: none;
 	text-align: center;
 	}
 
+	body {
+	  padding: 0px;
+	  margin: 0px;
+		overflow-x: hidden;
+	}
+
  }
 
 .vacio {
 width: auto;
 height: 370px;
 }
+
+
 /*------------------------------------------------------
 ESTILOS DESCRIPTION
 ------------------------------------------------------*/
