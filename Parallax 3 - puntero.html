@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>jQuery</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+		<style>.montahna,.nubes1,.nubes2{position:absolute;bottom:0}body{overflow:hidden}.fondo{background:url(src/ciudad.jpg) center/cover no-repeat;width:110%;height:120vh;margin:-10% 0 0 -10%}.montahna{background:url(src/bur.png) bottom/contain no-repeat;width:50%;height:100vh;left:25%}.nubes1{background:url(src/nubes.png) bottom/cover no-repeat;width:120%;height:120vh;margin:-10% 0}.nubes2{background:url(src/nubes2.png) bottom/cover no-repeat;width:110%;height:50vh;margin-left:-10%;opacity:.6}	</style>
+	</head>
+
+	<body>
+		 <h1 class="titulo"> Digital Marketing Specialist | Web and graphic designer</h1>
+		<div class="parallax fondo"></div>
+		<div class="parallax nubes1"></div>
+		<div class="parallax montahna"></div>
+		<dir class="parallax nubes2"></dir>
+
+	    <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+
+// detectar que el puntero se esta moviendo, despues donde se esta moviendo el puntero y despues ya mover las imagenes. Hay que registrar un evento dentro de la funcion, solemos usar la e.Para ver las coordenadas del mouse se utilizan la pagex y pagey.
+
+	$(document).on("mousemove", function(e){
+
+		console.log(e.pageX);
+
+
+
+ $(".montahna").css("transform", "translate("+e.pageX * 0.01 +"px, "+e.pageX * 0.02+"px)");
+$(".nubes1").css("transform", "translate("+e.pageX * 0.01 +"px, "+e.pageX * 0.02+"px)");
+
+
+
+
+
+
+	});
+
+		</script>
+
+	</body>
+</html>
