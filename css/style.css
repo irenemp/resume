@@ -906,3 +906,24 @@ margin-top: 7vh;
 
 	}
 }
+
+/*Flecha para hacer la pagina hacia arriba*/
+	.ir-arriba {
+			display:none;
+			padding:30px;
+			background-repeat: no-repeat;
+			font-size:20px;
+			color:#282828;
+			cursor:pointer;
+			position: fixed;
+			bottom:20px;
+			right:20px;
+			z-index: 2;
+	}
+
+@media all and (max-width: 768px) {
+.ir-arriba{
+padding:5px;
+right:0px;
+}
+}
