@@ -801,6 +801,20 @@ opacity: 1;
 }
 
 
+
+.sitio {
+	height: 350px;
+	width:auto;
+	border-radius: 5%;
+	padding-left: 0px;
+	margin-top: 180px;
+	opacity: .8;
+}
+
+.sitio:hover{
+opacity: 1;
+}
+
 @media all and (max-width: 768px) {
 
 .baradipic {
